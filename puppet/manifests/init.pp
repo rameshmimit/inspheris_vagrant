@@ -20,7 +20,7 @@ class puppet_base {
 }
 
 class mysql_server {
-  $password = "'iNsSnS05T09!"
+  $password = "test123"
 
 
   case  $operatingsystem {
